@@ -798,7 +798,7 @@ header.header-open:not(.header-transparent) + #hero, header.header-open:not(.hea
 	#hero .page-title:not(.wrapper) { width: calc(100% - 80px); padding-left: 40px; padding-right: 40px; }
 	
 #hero.hero-full { height: 100vh; }
-#hero.hero-almostfull { height: 90vh; }
+#hero.hero-almostfull { height: 80vh; }
 #hero.hero-big { height: 600px; max-height: 80vh;}
 	
 #hero.hero-full .page-title, #hero.hero-almostfull .page-title, #hero.hero-big .page-title, #hero.hero-half .page-title {
@@ -864,7 +864,7 @@ h1,h2,h3 {
 h1 {
     font-size: 2.2rem;
     font-family:PROTOTYPE,helvetica,sans-serif;
-    letter-spacing: 4px;
+    letter-spacing: 0.5rem;
     margin: 0 0 40px;
 }
 
