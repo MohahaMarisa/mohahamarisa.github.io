@@ -44,6 +44,9 @@ q:after { content: ''; content: none; } :focus { outline: 0; } ins { text-decora
 
 .cf:before, .cf:after { content: " "; display: table; } .cf:after { clear: both; }
 
+figcaption {
+	margin: 10px 0px;
+}
 /*=================================*/
 /* Main Styles
 /*=================================*/
@@ -68,34 +71,34 @@ q:after { content: ''; content: none; } :focus { outline: 0; } ins { text-decora
 .wrapper {
 	width: 1080px;
 	margin: 0 auto;
-	}
+}
 	.wrapper-small { width: 780px;	margin: 0 auto; }
 	.wrapper-mini { width: 400px;	margin: 0 auto; }
 	.wrapper:after, .wrapper-small:after, .wrapper-mini:after  { content: ""; display: block; clear: both; visibility: hidden; font-size: 0;  height: 0; }
 
 .left-float { 
 	float: left; 
-	}
+}
 	
 .right-float { 
 	float: right; 
-	}
+}
 	
 .align-center {
 	text-align: center;
-	}
+}
 	
 .align-right {
 	text-align: right;
-	}
+}
 	
 .text-light {
 	color: #ffffff;
-	}
+}
 
 .colored {
 	color: #90D4C5;
-	}
+}
 /*==============PAGE LOADER START===================*/
 
 body.loading-end .pace { opacity:0!important;filter:alpha(opacity=0)!important;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"!important; }
@@ -861,7 +864,7 @@ h1,h2,h3 {
 h1 {
     font-size: 2.2rem;
     font-family:PROTOTYPE,helvetica,sans-serif;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     margin: 0 0 40px;
 }
 
@@ -891,6 +894,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
+    letter-spacing: 1px;
     margin: 0 0 10px;
 }
 h4,
@@ -1006,6 +1010,7 @@ pre {
     text-align: left;
     width: 100%;
     letter-spacing: 0.1px;
+    font-family:'Metrophobic', sans-serif, 'Archivo', sans-serif, Arial, sans-serif;;
 }
 .site-tagline a,
 .site-tagline a:visited { color: #9ebbbb; }
@@ -1112,7 +1117,7 @@ pre {
     max-width: 360px;
     text-align: left;
     width: 75%;
-    text-transform: uppercase;
+/*    text-transform: uppercase;*/
     display: inline-block;
 }
 /*===== Project Assets =====*/
