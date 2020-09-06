@@ -104,7 +104,7 @@ body.loading-end .pace { opacity:0!important;filter:alpha(opacity=0)!important;-
 /*==============TYPE EFFECT YASSSS ===================*/
 .typed-cursor{
             opacity: 0;
-            font-weight: 500;
+            font-weight: normal;
             -webkit-animation: blink 0.8s 6;
             -moz-animation: blink 0.8s 6;
             -ms-animation: blink 0.8s 6;
@@ -148,8 +148,8 @@ body.loading-end .pace { opacity:0!important;filter:alpha(opacity=0)!important;-
     width: 20px;
     height: 20px;
     margin-left: -12px;
-    border-left: 1.5px solid #000000;
-    border-bottom: 1.5px solid #000000;
+    border-left: 3px solid #000000;
+    border-bottom: 3px solid #000000;
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     -webkit-animation: sdb04 2s infinite;
@@ -734,7 +734,7 @@ ul.filter li {
 		
 ul.filter li a {
 	position: relative;
-	font-family: 'Rubik', sans-serif, Consolas, monospace; 
+	font-family: 'Archivo', sans-serif, Consolas, monospace; 
 	font-weight: 300;
 	font-size: 13px;
 	text-transform: none;
@@ -824,14 +824,14 @@ header.header-open:not(.header-transparent) + #hero, header.header-open:not(.hea
 
 * { box-sizing: border-box; }
 html {
-    font-family: 'Rubik', sans-serif, Arial, sans-serif;
+    font-family: 'Archivo', sans-serif, Arial, sans-serif;
     -ms-text-size-adjust: 100%; /* 2 */
     -webkit-text-size-adjust: 100%; /* 2 */
 }
 body {
     background: #FFFFFF;
     color: #2c2c2c;
-    font-family: 'Rubik', sans-serif, Arial, sans-serif;
+    font-family: 'Archivo', sans-serif, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.65;
     opacity: 0;
@@ -901,7 +901,7 @@ h6 {
 p,li {
     font-weight: 300;
     font-size: 1rem;/*1.2*/
-    line-height: 1.5;
+    line-height: 1.65;
     margin: 0 0 20px;
 }
 small {
@@ -925,7 +925,7 @@ hr{
 pre,
 code,
 samp {
-    font-family: 'Rubik', sans-serif, Consolas, monospace;
+    font-family: 'Archivo', sans-serif, Consolas, monospace;
     font-size: inherit;
 }
 
@@ -1005,6 +1005,7 @@ pre {
     font-size: 14px;
     text-align: left;
     width: 100%;
+    letter-spacing: 0.1px;
 }
 .site-tagline a,
 .site-tagline a:visited { color: #9ebbbb; }
@@ -1104,7 +1105,7 @@ pre {
 }
 .thumbnail-description {
     color: #2c2c2c;
-    font-family: 'Rubik', sans-serif, Arial, sans-serif;
+    font-family: 'Archivo', sans-serif, Arial, sans-serif;
     font-size: 12px;
     margin: 0 auto;
     max-height: 5em;
@@ -1160,7 +1161,7 @@ div.image img { width: 100%; }
 }
 /*===== Project Content =====*/
 .project-meta {
-    font-family: 'Rubik', sans-serif, Arial, sans-serif;
+    font-family: 'Archivo', sans-serif, Arial, sans-serif;
     font-size: 14px;
     color: #BBBBBB;
     margin-top: 28px;
