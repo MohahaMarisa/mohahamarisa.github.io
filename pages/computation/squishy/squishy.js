@@ -9,9 +9,9 @@ var b = 120;
 var t=0;
 var activated = false;
 var clickCount = 0;
-function preload() {
-  myFont = loadFont('Quicksand-Bold.otf');
-}
+// function preload() {
+//   myFont = loadFont('Quicksand-Bold.otf');
+// }
 function setup() {
   canvas = createCanvas(0.99*window.innerWidth, 0.98*window.innerHeight);
   background(240,230,230);
@@ -19,17 +19,14 @@ function setup() {
   textAlign(CENTER);
   textSize(24);
   fill(200,180,180);
-  text('press RETURN to save drawing, SPACE to clear',0.1*width, height*0.48, 0.8*width, height);
+  text('CLICK to draw, RETURN to save drawing, SPACE to clear',0.1*width, height*0.48, 0.8*width, height);
 }
 
 function draw() {
-  console.log("activated?" + activated);
+  // console.log("activated?" + activated);
   if(activated){
-<<<<<<< HEAD
     t+=1/1000;
 
-=======
->>>>>>> e8424c959781f3a4bf6ea1c43cc3d368777574cc
     startr = 35*noise(t+6)+220;
     startg = 35*noise(t+20)+220;
     startb = 35*noise(t+1)+220;
@@ -53,43 +50,38 @@ function draw() {
       pop();
     }
   }
-<<<<<<< HEAD
-=======
   t+=1/1000;
->>>>>>> e8424c959781f3a4bf6ea1c43cc3d368777574cc
+
 }
 function mousePressed(){
-  console.log("pressed");
+  // console.log("pressed");
   if(clickCount==0){
     clickCount++;
     background(240,230,230);
-<<<<<<< HEAD
-    text('press RETURN to save drawing, SPACE to clear',0.1*width, height*0.48, 0.8*width, height);
-  }else if(clickCount==1){
-    background(240,230,230);
-    activated = !activated;
-    clickCount++;
-<<<<<<< HEAD
-  }else{activated = true;}
-}
-function mouseReleased(){
-  activated = false;
-=======
-  }else{activated = !activated;}
-
->>>>>>> e8424c959781f3a4bf6ea1c43cc3d368777574cc
-=======
   }
+  // else if(clickCount==1){
+  //   background(240,230,230);
+  //   activated = !activated;
+  //   clickCount++;
+
+  // }else{activated = true;}
   activated = true;
 }
+
+function mouseReleased(){
+  activated = false;
+
+  // }else{activated = !activated;}
+  // activated = true;
+}
+
 function touchMoved(){
-  console.log("touchMove");
+  // console.log("touchMove");
   activated = true;
 }
 function mouseReleased(){
-  console.log("released");
+  // console.log("released");
   activated = false;
->>>>>>> 251517ffb28ff1e12edf4603b975a5880eb1886b
 }
 function keyPressed(){
   if(keyCode===RETURN){
