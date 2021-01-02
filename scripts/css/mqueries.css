@@ -192,7 +192,7 @@ ul.filter li { padding: 0 6px; }
 #header-filter .title-filter { display: none; }	
 #header-filter .title-filter + ul.filter { margin-top: 0px; }
 
-#hero .page-title:not(.wrapper) { width: calc(100% - 40px); padding-left: 20px; padding-right: 20px; }
+#hero .page-title:not(.wrapper) { width: 100%; padding-left: 20px; padding-right: 20px; }
 #hero.hero-full .page-title, #hero.hero-big .page-title, #hero.hero-half .page-title { left: 0px; }
 #hero.hero-full .page-title.hright, #hero.hero-big .page-title.hright, #hero.hero-half .page-title.hright { right: 20px; }
 #hero.hero-full .page-title.vbottom, #hero.hero-big .page-title.vbottom, #hero.hero-half .page-title.vbottom { bottom: 20px; }

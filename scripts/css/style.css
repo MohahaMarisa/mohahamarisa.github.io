@@ -823,6 +823,16 @@ header.header-open:not(.header-transparent) + #hero, header.header-open:not(.hea
 /* if wolf item in page-title */
 #hero .page-title .wolf-item  { margin-bottom: 0px; }
 
+#hero .bgSideElements {
+	min-height:70%;
+	max-height:100%;
+	max-width:fit-content;
+	position:relative; 
+	z-index:-10; 
+	left:8%
+
+}
+
 /*-----HERO HEADERS-----*/
 
 * { box-sizing: border-box; }
@@ -1457,6 +1467,9 @@ width:100%;
 	.site-tagline p { 
         font-size: 24px;
     }
+    #hero .bgSideElements {
+		left:-10%
+	}
 }
 
 @media only screen and (min-width: 401px) {
@@ -1768,6 +1781,10 @@ width:100%;
     .site-tagline h5 { 
         font-size: 1.4rem;
     }
+
+  	#hero .bgSideElements {
+  		left: 10%;
+  	}
     /*===== Navigations =====*/
     .cd-nav-trigger {
         top: 94px;
