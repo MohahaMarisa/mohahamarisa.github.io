@@ -800,6 +800,7 @@ header.header-open:not(.header-transparent) + #hero, header.header-open:not(.hea
 #hero.hero-full { height: 100vh; }
 #hero.hero-almostfull { height: 80vh; }
 #hero.hero-big { height: 600px; max-height: 80vh;}
+#hero.hero-half { height: 500px; max-height: 60vh;}
 	
 #hero.hero-full .page-title, #hero.hero-almostfull .page-title, #hero.hero-big .page-title, #hero.hero-half .page-title {
 	padding: 0; 
