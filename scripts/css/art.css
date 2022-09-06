@@ -1284,7 +1284,7 @@ body[class*="Safari"] .mask-clip-title .title-wrap-tit {
 
 /*Filter*/
 .filters {
-  position: relative; z-index: 9; font-size: 0.5em; line-height: 40px; margin-bottom: 8px; 
+  position: relative; z-index: 9; font-size: 0.5em; margin-top: 4px; line-height: 0px; margin-bottom: 0px;/*margin-bottom: 8px;line-height: 40px; */
 }
 .filters-li {
   display: inline-block; margin: 0 15px;
